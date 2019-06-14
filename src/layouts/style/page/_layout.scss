@@ -1,0 +1,41 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    .bg{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .container-fluid {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    h2 {
+        font-size: 42px;
+        padding: 27px 0;
+        color: #3a6eff;
+        font-weight: 600;
+    }
+    .section{
+        padding: 100px 0
+    }
+    h4 {
+        font-size: 23px;
+        font-weight: 600;
+        margin: auto;
+    }
+    .blue-bg{
+        background: #3a6eff;
+    }
+    .blue{
+        color:#3a6eff
+    }
+    .josefin{
+        font-weight: 900;
+        font-family: 'Josefin Sans', sans-serif; 
+    }
+    
+}
+

@@ -1,0 +1,111 @@
+body 
+{
+    .award-section{
+        padding:30px 0;
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            color:#fff;
+            font-size: 52px;
+            text-transform: none;
+            letter-spacing: 0;
+            margin-bottom: 0;
+        }
+        .row{
+            padding:  0 20px;
+        }
+        .col-md-3.text-center {
+            img {
+                width: 170px;
+                height: auto;
+                margin: 0;
+            }
+            span{
+                color:#fff;
+                display: block;
+                margin-top: 5px;
+            }
+        }
+        .award-img img:last-of-type{
+            width: 347px;
+            height: auto;
+            padding: 16px 0;
+            margin: 0;
+        }
+        .award-img img:first-of-type {
+
+            width: 239px;
+            height: auto;
+            margin: 0 0 10px;
+
+        }
+        .col-lg-2 span{
+            font-size: 22px;
+            color: #fff;
+            font-family: 'Josefin Sans', sans-serif;
+            margin-right: 10px;
+        }
+    }
+
+    .mobile-design-section {
+        background-image: url('/img/Group-14.png');
+
+        height: 680px;
+        .container-fluid {
+            height: 100%;
+            .row{
+                height: 100%;
+            }
+            h2{
+                color: #fff;
+                font-family: 'Josefin Sans', sans-serif; 
+            }
+        }
+
+    }
+    .language-design-section {
+        background-image: url('/img/Group-16.png');
+        h2{
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 52px;
+            font-weight: 900;
+            text-transform: none;
+            max-width: 688px;
+            letter-spacing: 0;
+        }
+    }
+    .webapp-design-section {
+        h2{
+            margin: 0;
+            padding: 10px 0
+        }
+        span{
+            font-size: 18px;
+        }
+    }
+    .project-design-section
+    { background: #f7f7f7;
+      h2{
+          color:#000;
+      }
+      .owl-theme .owl-nav.disabled + .owl-dots {
+          margin-top: 40px;
+      }
+      .owl-theme img,  .owl-theme a{
+          outline: none !important
+      }
+      .owl-theme .owl-dots .owl-dot span {
+          width: 36px !important;
+          height: 3px !important;
+          margin: 0 4px !important;
+          background:#869791 !important;
+          border-radius: 0  !important;
+          margin-top: 25px !important;
+      }
+      .owl-theme .owl-dots .owl-dot.active span  {
+          background: #3a6eff !important;
+      }
+      .owl-theme .owl-dots button:focus {
+          outline: none !important;
+      }
+    }
+}

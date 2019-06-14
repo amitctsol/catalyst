@@ -1,0 +1,32 @@
+
+.banner-section{
+    background-image: url('/img/Vector-Smart-Object.png');
+    h1 {
+        font-size: 80px;
+        color: #3a6eff;
+        letter-spacing: 2px;
+        word-spacing: 6px;
+        font-weight: 600;
+    }
+    p{
+        color: #bdbbd8;
+        font-size: 17px;
+        font-weight: normal;
+    }
+    h4{
+        max-width: 187px;
+        margin-bottom: 80px;
+    }
+    .skills-wrapper {
+        padding-bottom:0px;
+        .row{
+            max-width: 1094px;
+            margin: 80px auto 0
+        }
+        img {
+            height: auto;
+            max-width: 70px;
+            margin: 0 auto 20px;
+        }
+    }
+}
