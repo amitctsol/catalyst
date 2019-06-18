@@ -10,6 +10,15 @@ import React from 'react'
                             </div>
                             <div className="col-sm-6 col-12">
                                 <h2>Programming languages we work in:</h2>
+                                <div className="language-wrapper">
+                                    <h5>Javascript Frameworks</h5>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li> 
+                                </div>
                             </div>
                         </div>
                     </div>

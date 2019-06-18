@@ -1,5 +1,13 @@
 body 
 {
+    @font-face {
+        font-family: 'Playfair Display';
+        src: url('/fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+            url('/fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+            url('/fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
     .award-section{
         padding:30px 0;
         h2{
@@ -107,5 +115,129 @@ body
       .owl-theme .owl-dots button:focus {
           outline: none !important;
       }
+    }
+    // Testiminials Section
+    .our-team-section {
+        .left-section {
+            width: 50%;
+            min-height: 550px;
+            text-align: center;
+            padding: 50px 80px;
+            background-image: url('/img/priscilla-du-preez-234138-unsplash-min.png');
+            position: relative;
+            h2 {
+                display: block;
+                text-align: center;
+                width: 100%;
+                color: #141117;
+                opacity: 1;
+                text-transform: uppercase;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 70px;
+
+            }
+        }
+        .left-section::before {
+
+            background: rgba(250,250,250,0.8);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            content: "";
+            height: 100%;
+            width: 100%;
+
+        }
+        .middle-section {
+            background: #eaeaea;
+            width: 23%;
+        }
+        .right-section {
+            width: 27%;
+            background-image: url('/img/jandre-van-der-walt-644817-unsplash-min.png');
+        }
+        .quote-section {
+            font-family: 'Playfair Display', serif;
+            padding: 0 65px;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            height: calc(100% - 250px);
+            max-height: 100%;
+            em {
+
+                position: relative;
+                display: block;
+
+            }
+            em::after {
+                position: absolute;
+                content: "";
+                background: #76757a;
+                bottom: -15px;
+                height: 2px;
+                width: 120px;
+                left: 0;
+
+            }
+        }
+        .service-logo {
+            background: #fff;
+            height: 230px;
+        }
+        .service-logo p {
+            font-size: 40px;
+            color: #5a5a5c;
+            margin-bottom: 0;
+        }
+        .service-logo {
+
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 41px;
+            color: #5a5a5c;
+
+        }
+        .section-content {
+            width: 100%;
+        }
+        .slider-section {
+
+            width: 100%;
+            position: relative;
+            p {
+                font-style: italic;
+            }
+            h4 {
+                font-weight: normal;
+                font-size: 17px;
+
+            }
+
+        }
+        .section-content span {
+            display: block;
+            font-weight: lighter;
+            font-size: 25px;
+            opacity: 0.7;
+            line-height: 1;
+            letter-spacing: 14px;
+            padding-left: 18px;
+        }
+        .service-logo {
+
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 41px;
+            color: #5a5a5c;
+
+        }
+        .middle-wrapper {
+            height: 100%;
+        }
     }
 }

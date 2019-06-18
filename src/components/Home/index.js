@@ -5,7 +5,7 @@ import LanguageSection from './LanguageSection';
 import MobileDesignSection from './MobileDesignSection';
 import WebAppSection from './WebAppSection';
 import ProjectSection from './ProjectSection';
-
+import TestimonialsSection from './TestimonialsSection';
 
 export default class HomePage extends React.Component {
     render() {
@@ -17,6 +17,7 @@ export default class HomePage extends React.Component {
                     <MobileDesignSection />
                     <WebAppSection />
                     <ProjectSection />
+                    <TestimonialsSection />
                 </div>
                 )
     }
