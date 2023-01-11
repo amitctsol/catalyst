@@ -28,7 +28,7 @@
     "gatsby-remark-responsive-iframe": "^1.4.16",
     "gatsby-remark-smartypants": "^1.4.10",
     "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.24",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^1.6.16",
     "highcharts": "^7.1.1",
     "highcharts-react-official": "^2.1.3",
